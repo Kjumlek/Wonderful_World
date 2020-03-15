@@ -210,18 +210,7 @@ p{
 
 
 .logo{
-    width: 20rem;
-}
-/* Largeur > 576px */
-@media screen and (min-width: 36em) {
-    .logo{
-        width: 30rem;
-    }
-}
-@media screen and (min-width: 48em) {
-    .logo{
-        width: 40rem;
-    }
+    max-width: 40rem;
 }
 
 .main-nav {
