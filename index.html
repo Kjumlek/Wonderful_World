@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr_FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sed distinctio, molestias sunt, est earum error architecto dolore, iusto autem reiciendis eos assumenda dolor enim sint repudiandae laboriosam quae dolorum unde dolores cum. Amet sed architecto odit, quae officia esse nihil similique nemo. Molestias amet, numquam temporibus eveniet expedita magni.">
+
+    <title>Wonderfull world</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+
+<body data-burger="false">
+    <header class="site-header">
+        <div class="container">
+            <img src="img/Logo.svg" alt="Logo Wonderful world" class="logo">
+            <nav class="main-nav">
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu"><span class="screen-reader-text">Menu</span></button>
+                <ul class="menu" id="menu" hidden>
+                    <li><a class="lin1 link-underline" href="#hero">Home</a></li>
+                    <li><a class="lin2" href="#about">About</a></li>
+                    <li><a class="lin3" href="#contact">Contact</a></li>
+                    <li><a class="btn btn-hello" href="#team">Say Hello</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="hero parallax-window" data-parallax="scroll" data-z-index="-1" data-image-src="img/Photo_montagnes.png" id="hero">
+        <div class="container">
+            <div class="wonderBox">
+                <h1 class="title">Wonderful<br><span class="world">World</span> </h1>
+            </div>
+            
+            <a href="#features" class="btn">
+                Our Work
+                <svg xmlns="http://www.w3.org/2000/svg" width="26.942" height="26.359" viewBox="0 0 26.942 26.359">
+                    <g transform="translate(2 2.828)"><path class="a" d="M893.908,439.6l10.351,10.351L893.908,460.3" transform="translate(-881.317 -439.602)"/><path class="b" d="M875.831,473.324H852.889" transform="translate(-852.889 -462.973)"/></g></svg>
+            </a>
+        </div>
+        
+    </section>
+    
+    <section class="about scroll" id="about">
+        <div class="container">
+            <article>
+                <h2 class="section-title">About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi incidunt earum ipsum similique odit quos numquam minus, vitae ratione ut asperiores suscipit harum illo. Dolor, rem velit corrupti modi qui minus delectus quis eveniet eaque error quae iusto unde nisi omnis iste, quas dolorem nam corporis odit repudiandae pariatur.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="features scroll" id="features">
+        <div class="container">
+            <h2 class="section-title ourWork">Our Work</h2>
+            <section class="feature feature1">
+                <!-- Ca ne coute rien d'essayer, ça fout la zone dans les dimensions donc j'ai arreté! -->
+                <!-- <svg class="svgFilterOnImageTest">
+                    <defs>
+                        <filter id="pictureFilter">
+                            <feMorphology operator="erode" radius="2"/>
+                        </filter>
+                    </defs>
+                    <image
+                    xlink:href="img/cold-daylight-fjord-1586298.png" width="100%" height="100%" x="0" y="0" filter="url(#pictureFilter)"/>
+                </svg> -->
+
+                <img class="photo" alt="" src="img/cold-daylight-fjord-1586298.png">
+
+
+                <article>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="btn">
+                        See More</a>
+                </article>
+            </section>
+            <section class="feature feature2">
+                <img class="photo photoA" alt="" src="img/adorable-animal-breed-434090.png">
+                <img class="photo photoB" alt="" src="img/adorable-animal-breed-mini.png">
+                <article>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos praesentium natus repudiandae quaerat, incidunt deleniti nam aut! Delectus, saepe totam.</p>
+                    <a href="#" class="btn">
+                        See More</a>
+                </article>
+            </section>
+            <section class="feature feature3">
+                <img class="photo" alt="" src="img/action-active-cold-2433353.png">
+                <article>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos praesentium natus repudiandae quaerat, incidunt deleniti nam aut! Delectus, saepe totam.</p>
+                    <a href="#" class="btn">
+                        See More</a>
+                </article>
+            </section>
+            <section class="feature feature4">
+                <img class="photo" alt="" src="img/adventure-adventurer-altitude-2577274.png">
+                <article>
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="btn">
+                        See More</a>
+                </article>
+            </section>
+            <section class="feature feature5">
+                <img class="photo" alt="" src="img/beatiful-landscape-cold-colors-2832052.png"> 
+                <article>          
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="btn">
+                        See More</a>
+                </article>
+            </section>
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section class="team scroll" id="team">
+        <div class="container">
+            <h2 class="team-title">Testimonial</h2>
+            <ul class="members turn-right" id="slider3d">
+                <li class="member left">
+                    <img src="img/Photo.png" alt="Portrait de Tex Align" class="rounded">
+                    <h3>Tex Align</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis numquam, aperiam deleniti corporis consequatur voluptatibus provident dolor assumenda iure exercitationem dicta reprehenderit minus dignissimos, adipisci officia dolorum, harum ducimus!</p>
+                </li>
+                <li class="member front">
+                    <img src="img/Photo.png" alt="Portrait de Marge Inn" class="rounded">
+                    <h3>Marge Inn</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis numquam, aperiam deleniti corporis consequatur voluptatibus provident dolor assumenda iure exercitationem dicta reprehenderit minus dignissimos, adipisci officia dolorum, harum ducimus!</p>
+                </li>
+                <li class="member right">
+                    <img src="img/Photo.png" alt="Portrait de Isaac Newton" class="rounded">
+                    <h3>Isaac Newton</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis numquam, aperiam deleniti corporis consequatur voluptatibus provident dolor assumenda iure exercitationem dicta reprehenderit minus dignissimos, adipisci officia dolorum, harum ducimus!</p>
+                </li>
+            </ul>
+            <nav class="btn-container">
+                <button class="btn-move slideActive" id="move1"></button>
+                <button class="btn-move" id="move2"></button>
+                <button class="btn-move" id="move3"></button>
+            </nav>
+            
+        </div>
+        
+    </section>
+    
+    <footer>
+        <section class="contact scroll" id="contact">
+            <div class="container2">
+                <img src="img/Logo déclinaison.svg" alt="logo2">
+                <ul class="adress">
+                    <li>
+                        <h4>Location</h4>
+                        <p>SnowMount <br> 3979 Marseille Road <br> New York</p>
+                    </li>
+                    <li>
+                        <h4>Contact</h4>
+                        <p>(859)749-1380 <br> jessica.lee@mail.com</p>
+                    </li>
+                </ul>
+
+                <ul class="links">
+                    <li>
+                        <img src="img/Facebook.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Instagram.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/youtube.svg" alt="">
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </footer>
+    
+    <script src="js/navigation.js"></script>
+
+</body>
+</html>
